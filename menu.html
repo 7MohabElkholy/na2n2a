@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>نأنأه — المنيو</title>
+<meta name="description" content="منيو نأنأه كامل: أكل، مقبلات، مشروبات، حلويات.">
+<meta name="theme-color" content="#211610">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="m-head">
+  <div class="m-head__bar">
+    <a class="m-head__brand" href="index.html">نأنأه</a>
+    <a class="back" href="index.html">← رجوع للحكاية</a>
+  </div>
+  <div class="m-search">
+    <input id="q" type="search" placeholder="دوّر على صنف… (مثل: كريب، لاتيه، بطاطس)" aria-label="بحث في المنيو" autocomplete="off">
+  </div>
+  <nav class="tabs" aria-label="أقسام المنيو">
+    <a class="tab is-active" href="#food" data-tab="food">أكل</a>
+    <a class="tab" href="#starters" data-tab="starters">مقبلات</a>
+    <a class="tab" href="#drinks" data-tab="drinks">مشروبات</a>
+    <a class="tab" href="#desserts" data-tab="desserts">حلويات</a>
+  </nav>
+</header>
+
+<main class="m-main" id="menu-main">
+
+  <!-- ═══ أكل ═══ -->
+  <section class="m-group" id="food">
+    <p class="eyebrow">القسم ١</p>
+    <h2>أكل</h2>
+
+    <h3>السندوتشات</h3>
+    <ul class="m-list">
+      <li><b>ساندوتش كبدة</b><i class="en">Liver Sandwich</i></li>
+      <li><b>ساندوتش بطاطس اسبيشيال</b><i class="en">Special Potato Sandwich</i></li>
+      <li><b>ساندوتش سجق</b><i class="en">Sausage Sandwich</i></li>
+      <li><b>ساندوتش كفتة فراخ</b><i class="en">Chicken Kofta Sandwich</i></li>
+      <li><b>ساندوتش فراخ جريل</b><i class="en">Grilled Chicken Sandwich</i></li>
+      <li><b>ساندوتش استريبس</b><i class="en">Strips Sandwich</i></li>
+      <li><b>ساندوتش جبنة مقلية</b><i class="en">Fried Cheese Sandwich</i></li>
+      <li><b>ساندوتش نأنأة اسبيشيال</b><i class="en">Na2na2a Special Sandwich</i></li>
+    </ul>
+
+    <h3>الفاهيتا</h3>
+    <ul class="m-list">
+      <li><b>فاهيتا فراخ أوريجينال</b><i class="en">Original Chicken Fajita</i></li>
+      <li><b>فاهيتا فراخ جريل سبيشيال</b><i class="en">Special Grilled Chicken Fajita</i></li>
+      <li><b>فاهيتا فراخ ميكس جبن</b><i class="en">Mix Cheese Chicken Fajita</i></li>
+      <li><b>فاهيتا فراخ بسطرمة</b><i class="en">Pastrami Chicken Fajita</i></li>
+      <li><b>فاهيتا فراخ تركي مدخن</b><i class="en">Smoked Turkey Chicken Fajita</i></li>
+      <li><b>فاهيتا فراخ بيف بيكن</b><i class="en">Beef Bacon Chicken Fajita</i></li>
+      <li><b>فاهيتا نأنأة سبيشيال</b><i class="en">Na2na2a Special Fajita</i></li>
+    </ul>
+
+    <h3>البرجر</h3>
+    <ul class="m-list">
+      <li><b>سماش برجر لحمة</b><i class="en">Smash Beef Burger</i></li>
+      <li><b>برجر فراخ أوريجينال</b><i class="en">Original Chicken Burger</i></li>
+      <li><b>برجر فراخ كرسبي</b><i class="en">Crispy Chicken Burger</i></li>
+      <li><b>برجر لحمة سبيشيال نأنأة</b><i class="en">Na2na2a Special Beef Burger</i></li>
+      <li><b>برجر فراخ سبيشيال نأنأة</b><i class="en">Na2na2a Special Chicken Burger</i></li>
+    </ul>
+
+    <h3>كريب نأنأة</h3>
+    <ul class="m-list">
+      <li><b>تعالا نأنأ</b><i class="en">Fries Crepe</i></li>
+      <li><b>مستر نأنــوع</b><i class="en">Mix Cheese Crepe</i></li>
+      <li><b>نأنــوء باشــا</b><i class="en">Mix Cheese & Pastrami Crepe</i></li>
+      <li><b>كابتن نأنأة</b><i class="en">Sausage Crepe</i></li>
+      <li><b>نأنأة اكسبريس</b><i class="en">Fajita & Strips Crepe</i></li>
+      <li><b>سلطان النأنأة</b><i class="en">Strips, Pane, Smoked Turkey Crepe</i></li>
+      <li><b>نأنــوء الونــش</b><i class="en">Grilled Chicken, Pane, Mushroom, Onion Rings Crepe</i></li>
+      <li><b>نأنــؤة هانــم</b><i class="en">Strips, Fajita, Kofta, Kiri, Salami Crepe</i></li>
+    </ul>
+
+    <h3>نأنأة التوفير</h3>
+    <ul class="m-list">
+      <li><b>ساندوتش بطاطس</b><i class="en">Fries Sandwich</i></li>
+      <li><b>ساندوتش برجر لحمة</b><i class="en">Beef Burger Sandwich</i></li>
+      <li><b>ساندوتش برجر فراخ</b><i class="en">Chicken Burger Sandwich</i></li>
+      <li><b>ساندوتش استريبس</b><i class="en">Strips Sandwich</i></li>
+      <li><b>ساندوتش بانية</b><i class="en">Chicken Pane Sandwich</i></li>
+      <li><b>كريب بطاطس</b><i class="en">Fries Crepe</i></li>
+      <li><b>كريب برجر لحمة</b><i class="en">Beef Burger Crepe</i></li>
+      <li><b>كريب برجر فراخ</b><i class="en">Chicken Burger Crepe</i></li>
+      <li><b>كريب استريبس</b><i class="en">Strips Crepe</i></li>
+      <li><b>كريب بانية</b><i class="en">Chicken Pane Crepe</i></li>
+    </ul>
+  </section>
+
+  <!-- ═══ مقبلات ═══ -->
+  <section class="m-group" id="starters">
+    <p class="eyebrow">القسم ٢</p>
+    <h2>مقبلات</h2>
+
+    <h3>باكيت نأنأة</h3>
+    <ul class="m-list">
+      <li><b>بطاطس مشكل توابل نأنأة</b><i class="en">Seasoned Potato Fries</i></li>
+      <li><b>بطاطس ميكس صوص</b><i class="en">Fries with Mix Sauce</i></li>
+      <li><b>بطاطس سجق</b><i class="en">Fries with Sausage</i></li>
+      <li><b>بطاطس استريبس فريش</b><i class="en">Fries with Fresh Strips</i></li>
+      <li><b>بطاطس ميكس جبن</b><i class="en">Fries with Mix Cheese</i></li>
+      <li><b>باكيت نأنأة سبيشيال</b><i class="en">Na2na2a Special Fries Bucket</i></li>
+    </ul>
+
+    <h3>الأندومي</h3>
+    <ul class="m-list">
+      <li><b>اندومي صغير</b><i class="en">Small Indomie</i></li>
+      <li><b>اندومي كبير</b><i class="en">Large Indomie</i></li>
+    </ul>
+  </section>
+
+  <!-- ═══ مشروبات ═══ -->
+  <section class="m-group" id="drinks">
+    <p class="eyebrow">القسم ٣</p>
+    <h2>مشروبات</h2>
+
+    <h3>القهوة الكلاسيك</h3>
+    <ul class="m-list">
+      <li><b>قهوة تركي نأنأة</b><i class="en">Turkish Coffee</i></li>
+      <li><b>قهوة محــوج</b><i class="en">Spiced Turkish Coffee</i></li>
+      <li><b>قهوة فرنساوي</b><i class="en">French Coffee</i></li>
+      <li><b>قهوة بندق</b><i class="en">Hazelnut Coffee</i></li>
+      <li><b>قهوة نوتيلا</b><i class="en">Nutella Coffee</i></li>
+    </ul>
+
+    <h3>اسبريسو نأنأة</h3>
+    <ul class="m-list">
+      <li><b>اسبريسو</b><i class="en">Espresso</i></li>
+      <li><b>ميكاتــو</b><i class="en">Macchiato</i></li>
+      <li><b>كراميل ميكاتو</b><i class="en">Caramel Macchiato</i></li>
+      <li><b>كابتشينــو</b><i class="en">Cappuccino</i></li>
+      <li><b>لاتيــــه</b><i class="en">Caffè Latte</i></li>
+      <li><b>سبانيش لاتيه</b><i class="en">Spanish Latte</i></li>
+      <li><b>أمريكان كوفي</b><i class="en">American Coffee</i></li>
+      <li><b>موكــــا</b><i class="en">Mocha</i></li>
+      <li><b>كورتـــــادو</b><i class="en">Cortado</i></li>
+    </ul>
+
+    <h3>مشروبات ساخنة</h3>
+    <ul class="m-list">
+      <li><b>هوت شوكليت</b><i class="en">Hot Chocolate</i></li>
+      <li><b>هوت نوتيــــلا</b><i class="en">Hot Nutella</i></li>
+      <li><b>هوت أوريــو</b><i class="en">Hot Oreo</i></li>
+      <li><b>هوت ســـيدر</b><i class="en">Hot Cider</i></li>
+      <li><b>نسكافــــيــة</b><i class="en">Nescafe</i></li>
+      <li><b>سحلب مكسرات</b><i class="en">Sahlab with Nuts</i></li>
+      <li><b>شــــــــــاي</b><i class="en">Tea</i></li>
+      <li><b>شاي بالحليب</b><i class="en">Tea with Milk</i></li>
+      <li><b>أعشـــــــاب</b><i class="en">Herbs</i></li>
+      <li><b>ينســـــــون</b><i class="en">Anise</i></li>
+      <li><b>كركــــديــة</b><i class="en">Hibiscus</i></li>
+    </ul>
+
+    <h3>عصائر فريش</h3>
+    <ul class="m-list">
+      <li><b>مانجــــــــو</b><i class="en">Mango Ice Cream</i></li>
+      <li><b>برتقـــــــال</b><i class="en">Orange</i></li>
+      <li><b>جوافـــــــــة</b><i class="en">Guava</i></li>
+      <li><b>مـــــــــــوز</b><i class="en">Banana</i></li>
+      <li><b>رمــــــــــان</b><i class="en">Pomegranate</i></li>
+      <li><b>ليمون نعناع</b><i class="en">Lemon Mint Smoothie</i></li>
+    </ul>
+
+    <h3>سوفت نأنأة</h3>
+    <ul class="m-list">
+      <li><b>موهيتو باشون</b><i class="en">Passion Fruit Mojito</i></li>
+      <li><b>بلو بيري</b><i class="en">Blueberry Ice Cream</i></li>
+      <li><b>فراولــــــة</b><i class="en">Strawberry Ice Cream</i></li>
+      <li><b>نعنــــــــــاع</b><i class="en">Mint Mojito</i></li>
+      <li><b>كﻴــــــــﻮي</b><i class="en">Kiwi Smoothie</i></li>
+      <li><b>صن شاين</b><i class="en">Sunshine</i></li>
+    </ul>
+
+    <h3>ميلك شيك</h3>
+    <ul class="m-list">
+      <li><b>فانيــــــــــلا</b><i class="en">Vanilla Ice Cream</i></li>
+      <li><b>شوكليت</b><i class="en">Chocolate Ice Cream</i></li>
+      <li><b>مانجــــــــو</b><i class="en">Mango Ice Cream</i></li>
+      <li><b>فراولــــــة</b><i class="en">Strawberry Ice Cream</i></li>
+      <li><b>بلو بيري</b><i class="en">Blueberry Ice Cream</i></li>
+      <li><b>أوريــــــــــو</b><i class="en">Oreo Ice Cream</i></li>
+      <li><b>نوتيــــــــــلا</b><i class="en">Nutella Ice Cream</i></li>
+      <li><b>لوتــــــــــس</b><i class="en">Lotus Ice Cream</i></li>
+    </ul>
+
+    <h3>سموزي نأنأة</h3>
+    <ul class="m-list">
+      <li><b>مانجــــــــو</b><i class="en">Mango Ice Cream</i></li>
+      <li><b>فراولــــــة</b><i class="en">Strawberry Ice Cream</i></li>
+      <li><b>كﻴــــــــﻮي</b><i class="en">Kiwi Smoothie</i></li>
+      <li><b>بلو بيري</b><i class="en">Blueberry Ice Cream</i></li>
+      <li><b>ليمون نعناع</b><i class="en">Lemon Mint Smoothie</i></li>
+      <li><b>مانجو / كيوي</b><i class="en">Mango Kiwi Smoothie</i></li>
+    </ul>
+
+    <h3>أيس اسبريسو</h3>
+    <ul class="m-list">
+      <li><b>أيس لاتيه</b><i class="en">Iced Latte</i></li>
+      <li><b>أيس موكا</b><i class="en">Iced Mocha</i></li>
+      <li><b>أيس كابتشينو</b><i class="en">Iced Cappuccino</i></li>
+      <li><b>أيس أمريكانو</b><i class="en">Iced Americano</i></li>
+      <li><b>أيس كراميل ميكاتو</b><i class="en">Iced Caramel Macchiato</i></li>
+      <li><b>أيس سبانيش لاتيه</b><i class="en">Iced Spanish Latte</i></li>
+      <li><b>أيس كراميل لاتيه</b><i class="en">Iced Caramel Latte</i></li>
+      <li><b>أيس شوكليت لاتيه</b><i class="en">Iced Chocolate Latte</i></li>
+      <li><b>أيس لوتس لاتيه</b><i class="en">Iced Lotus Latte</i></li>
+      <li><b>أيس بستا شيو لاتيه</b><i class="en">Iced Pistachio Latte</i></li>
+    </ul>
+
+    <h3>مشروبات غازية</h3>
+    <ul class="m-list">
+      <li><b>ستينج</b><i class="en">Sting</i></li>
+      <li><b>بيج كولا</b><i class="en">Big Cola</i></li>
+      <li><b>في كاندي</b><i class="en">V-Candy</i></li>
+      <li><b>في كولا</b><i class="en">V-Cola</i></li>
+      <li><b>في أناناس</b><i class="en">V-Pineapple</i></li>
+      <li><b>مياه صغيرة</b><i class="en">Small Mineral Water</i></li>
+    </ul>
+  </section>
+
+  <!-- ═══ حلويات ═══ -->
+  <section class="m-group" id="desserts">
+    <p class="eyebrow">القسم ٤</p>
+    <h2>حلويات</h2>
+
+    <h3>الحلوى النأنأة</h3>
+    <ul class="m-list">
+      <li><b>وافل نوتيلا</b><i class="en">Nutella Waffle</i></li>
+      <li><b>وافل حشو شوكليت</b><i class="en">Chocolate-Stuffed Waffle</i></li>
+      <li><b>وافل نأنأة سبيشيال</b><i class="en">Na2na2a Special Waffle - Fruit & Sauce Mix</i></li>
+      <li><b>فروت سالاد</b><i class="en">Fruit Salad</i></li>
+      <li><b>بلجين شوكليت مافن</b><i class="en">Belgian Chocolate Muffin</i></li>
+      <li><b>لوتس مافن</b><i class="en">Lotus Muffin</i></li>
+    </ul>
+
+    <h3>أيس كريم</h3>
+    <ul class="m-list">
+      <li><b>فانيلا</b><i class="en">Vanilla Ice Cream</i></li>
+      <li><b>شوكليت</b><i class="en">Chocolate Ice Cream</i></li>
+      <li><b>مانجو</b><i class="en">Mango Ice Cream</i></li>
+      <li><b>فراولة</b><i class="en">Strawberry Ice Cream</i></li>
+      <li><b>بلو بيري</b><i class="en">Blueberry Ice Cream</i></li>
+      <li><b>أوريو</b><i class="en">Oreo Ice Cream</i></li>
+      <li><b>لوتس</b><i class="en">Lotus Ice Cream</i></li>
+      <li><b>نوتيلا</b><i class="en">Nutella Ice Cream</i></li>
+    </ul>
+  </section>
+
+  <div class="m-empty" role="status">
+    <b>مفيش صنف بالاسم ده</b>
+    جرّب كلمة تانية زي «كريب» أو «قهوة»
+  </div>
+
+</main>
+
+<footer class="foot">
+  <p class="foot__brand">نأنأه</p>
+  <p>المنيو · ١٢٧ صنف</p>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/menu.js"></script>
+</body>
+</html>
