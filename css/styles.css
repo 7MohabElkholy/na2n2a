@@ -270,6 +270,7 @@ b{font-weight:700; color:var(--cart)}
 .sec--owners{background:var(--bean)}
 .sec--girls{background:var(--grounds); padding-bottom:84px}
 .sec--end{background:var(--bean); padding-bottom:96px}
+.sec--plant{background:var(--bean)}
 
 /* ٠٢ — comments as pinned notes */
 .notes{
@@ -388,6 +389,8 @@ b{font-weight:700; color:var(--cart)}
   margin-top:30px;
 }
 .quran-media .shot img{aspect-ratio:3/4; object-fit:cover}
+.quran-media .shot--full{grid-column:1 / -1; width:min(100%, 340px); margin-inline:auto}
+.quran-media .shot--full img{aspect-ratio:auto}
 .shot--video{
   position:relative;
   grid-column:1 / -1;
@@ -403,7 +406,7 @@ b{font-weight:700; color:var(--cart)}
   border:1px solid var(--line);
 }
 
-/* ٠٧ — album */
+/* ٠٨ — album */
 .album{
   display:grid;
   grid-template-columns:1fr 1fr;
@@ -425,7 +428,7 @@ b{font-weight:700; color:var(--cart)}
 .album__cell--wide img{aspect-ratio:16/10}
 .album__cell:hover img{transform:scale(1.03); filter:saturate(1.05)}
 
-/* ٠٨ — the end */
+/* ٠٩ — the end */
 .wrap--prose{max-width:560px}
 .prose{
   margin:0 0 22px;
@@ -472,6 +475,26 @@ b{font-weight:700; color:var(--cart)}
   font-family:var(--display);
   font-size:26px; color:var(--foam);
 }
+.foot__social{
+  display:flex; justify-content:center; gap:12px;
+  margin:16px 0 4px;
+}
+.foot__social a{
+  display:grid; place-items:center;
+  width:44px; height:44px;
+  border:1px solid var(--line);
+  border-radius:50%;
+  color:var(--foam);
+  background:rgba(243,231,211,.05);
+  transition:color .25s ease, border-color .25s ease, transform .25s ease, background .25s ease;
+}
+.foot__social a:hover{
+  color:var(--bean);
+  background:var(--cart);
+  border-color:var(--cart);
+  transform:translateY(-2px);
+}
+.foot__social svg{width:19px; height:19px; display:block}
 
 /* ─────────── floating main button ─────────── */
 
