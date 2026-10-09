@@ -271,6 +271,8 @@ b{font-weight:700; color:var(--cart)}
 .sec--girls{background:var(--grounds); padding-bottom:84px}
 .sec--end{background:var(--bean); padding-bottom:96px}
 .sec--plant{background:var(--bean)}
+.sec--plant .shot--plant{max-width:360px; margin-inline:auto; margin-block:30px 0}
+.sec--plant .shot--plant img{aspect-ratio:3/4; object-fit:cover}
 
 /* ٠٢ — comments as pinned notes */
 .notes{
